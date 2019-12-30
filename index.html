@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<link href="css/reset.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<link href="fontAwesome/css/all.css" rel="stylesheet" type="text/css"/>
+<script src="js/jquery.1.12.4.js"></script>
+<script src="plugins/bxslider/js/jquery.bxslider.js"></script>
+<script src="fontAwesome/js/all.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.slider').bxSlider({
+            controls: false,
+            pager: false,
+            auto: true
+        });
+        setInterval(60);
+    });
+    
+    </script>
+</head>
+
+<body>
+    <div class="dot"></div>
+    <div class="slider">
+        <div class="background_1"></div>
+        <div class="background_2"></div>
+        <div class="background_3"></div>
+    </div>
+    <div class="contents">
+        <p class="name">My name is Jaehwa Lee</p>
+        <p class="job">I'm Web Programmer</p>
+    <ul class="list">
+        <li><a href="#"><i class= "fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class= "fab fa-instagram"></a></i></li>
+        <li><a href="#"><i class= "fab fa-twitter-square"></a></i></li>
+        <li><a href="#"><i class= "fab fa-blogger-b"></a></i></li>
+    </ul>
+    </div>
+    
+
+</body>
+
+
+</html>
+
